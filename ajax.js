@@ -1,7 +1,7 @@
 const apiHost= 'https://bakesaleforgood.com'
 
 export default {
-  fetchInitialDeals() {
+  async fetchInitialDeals() {
     try {
       let response = await fetch(apiHost+'/api/deals');
       let responseJson = await response.json();
