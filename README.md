@@ -1,1 +1,3 @@
-# Bakesale-Android
+To-Do: 
+-Implement React-Navigation
+Continue to deployment

@@ -9,6 +9,7 @@ class DealList extends React.Component {
     onItemPress: PropTypes.func.isRequired,
   };
   render() {
+    
     return (
       <View style={styles.list}>
          <FlatList data ={this.props.deals}
@@ -23,9 +24,7 @@ class DealList extends React.Component {
 const styles = StyleSheet.create({
   list: {
     backgroundColor: "#eee",
-    flex: 1,
     width: "100%",
-    paddingTop: 50,
   },
 });
 
